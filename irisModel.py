@@ -4,6 +4,9 @@ import pandas as pd
 from pydantic import BaseModel
 from sklearn.ensemble import RandomForestClassifier
 
+from irisModelBase import probability
+
+
 class IrisSpecies(BaseModel):
     sepal_length: float
     sepal_width: float
@@ -31,5 +34,6 @@ class IrisMachineLearning:
     def predict_species(self, sepal_length, sepal_width, petal_length, petal_width):
         x_new = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
         prediction = self.model_rfc.predict(x_new)
+        probability = self.model_rfc.predict_proba(x_new).max()
         print(prediction)
-        return prediction[0]
+        return prediction[0], probability
