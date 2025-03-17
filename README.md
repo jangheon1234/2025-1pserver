@@ -6,7 +6,7 @@
 ![HTML](https://img.shields.io/badge/html-5-orange?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css-3-blue?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-ES6-yellow?logo=javascript&logoColor=white)
-[![GitHub](https://img.shields.io/badge/github-repository-black?logo=github&logoColor=white)](https://github.com/jangheon1234)
+[![GitHub](https://img.shields.io/badge/github-jangheon1234-black?logo=github&logoColor=white)](https://github.com/jangheon1234)
 
 ## fastAPI를 이용한 붓꽃 분류 시스템을 <br> 차근차근 만들어봅시다
 
