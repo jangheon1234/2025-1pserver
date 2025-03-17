@@ -4,6 +4,7 @@ function Send() {
     s2 = document.getElementById("sw").value;
     s3 = document.getElementById("pl").value;
     s4 = document.getElementById("pw").value;
+
     const data = {
         sepal_length: s1,
         sepal_width: s2,
